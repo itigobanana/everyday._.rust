@@ -7,7 +7,7 @@ fn main(){
     let args: Vec<String> = env::args().collect();
     
     let config = Config::build(&args).unwrap_or_else(|err|{
-        eprintln!("入力エラー：{}",err);
+        eprintln!("入力エラー：{}",err);//ルートを分ける。失敗の時は画面に表示、成功の時はoutput.txtに保存
         process::exit(1);
     });
 

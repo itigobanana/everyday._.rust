@@ -1,0 +1,8 @@
+[package]
+name = "abc81a"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pr = "0.0.1"
+proconio = "0.5.0"

@@ -10,9 +10,11 @@ fn main(){
     let l = s.len();
 
     for i in 0..l{
-        if i>=n && i>l-n{
+        if n<=i && i<l-n{
             print!("{}", s[i]);
         }
     }
     println!();
 }
+
+
